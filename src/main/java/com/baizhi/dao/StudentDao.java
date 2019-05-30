@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface StudentDao {
     public Integer insert(List<Student> list);
+     public Integer delete(String id);
 }
